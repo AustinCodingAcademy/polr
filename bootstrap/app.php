@@ -2,6 +2,7 @@
 
 require_once __DIR__.'/../vendor/autoload.php';
 
+touch(__DIR__.'/../.env');
 Dotenv::load(__DIR__.'/../');
 
 /*
