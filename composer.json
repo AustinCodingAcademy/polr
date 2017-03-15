@@ -36,8 +36,5 @@
     },
     "config": {
         "preferred-install": "dist"
-    },
-    "scripts": {
-      "post-install-cmd": "php artisan migrate"
     }
 }
